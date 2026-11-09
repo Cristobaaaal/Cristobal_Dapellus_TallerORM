@@ -21,7 +21,7 @@ python -m pip install "SQLAlchemy>=2.0,<3.0"
 python -c "import sqlalchemy; print(sqlalchemy.__version__)"
 ```
 
-Verifica que la conexión en `conexion.py` use la URL `sqlite:///reservas.db`. Luego inicia el programa:
+Luego inicia el programa:
 
 ```powershell
 python main.py
